@@ -1,0 +1,27 @@
+{
+  "name": "attendance-record",
+  "version": "0.0.0",
+  "description": "A command line tool for automatically recording your work attendance.",
+  "keywords": [
+    "work",
+    "attendance",
+    "record",
+    "track",
+    "log"
+  ],
+  "bin": {
+    "record": "./bin/index.js"
+  },
+  "author": "Gabriel Cramer <cramergabriel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "gitlike-config": "^1.1.0",
+    "googleapis": "^27.0.0",
+    "moment": "^2.22.2",
+    "node-notifier": "^5.3.0",
+    "opn": "^5.4.0",
+    "power-off": "^1.1.2",
+    "user-startup": "^0.2.2"
+  }
+}
